@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: blue; text-align: center;">Vaccine Check</h1>
+    <div>
+        <input type="number" id="a1" placeholder="Enter Age"><br>
+        <button onclick="agecheck()">Check</button>
+    </div>
+</body>
+<script>
+    function agecheck()
+    {
+        // p1=parseInt((document.querySelector("#a1").value));
+        p1=parseInt(a1.value); //converting string to integer
+        p1>=18?alert("Eligible for Vaccination"):alert("Not Eligible for Vaccination");
+    }
+</script>
+</html>
